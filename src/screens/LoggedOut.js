@@ -9,6 +9,7 @@ import FeaturesCard from "../components/FeaturesCards.tsx";
 import CategoriesCard from "../components/CategoriesCards.tsx";
 import Bootcamps from "../components/Bootcamps.tsx";
 import Footer from "../components/Footer";
+import ForgotPassword from "../components/ForgotPassword.jsx";
 
 function LoggedOut() {
   return (
@@ -16,6 +17,7 @@ function LoggedOut() {
       <TopNav />
       <Login />
       <SignUp />
+      <ForgotPassword />
       <IntroSection />
       <FeaturesCard />
       <CategoriesCard />

@@ -72,7 +72,7 @@ function Login() {
             <div className="logo-holder">
               <img src={logo} alt="" />
             </div>
-            <div className="text-center mt-4 name">DocsLib</div>
+            <div className="text-center mt-4 name">Errands</div>
             {error && <Alert variant="danger">{error}</Alert>}
             <form className="p-3 mt-3" onSubmit={handleSubmit}>
               <div className="form-field d-flex align-items-center">
@@ -110,7 +110,14 @@ function Login() {
               </button>
             </form>
             <div className="text-center fs-6">
-              <a href="#">Forgot password? </a> OR
+              <a
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#forgotPasswordModal"
+              >
+                Forgot password?{" "}
+              </a>{" "}
+              OR
               <a href="#" data-bs-toggle="modal" data-bs-target="#signupModal">
                 {" "}
                 Sign Up

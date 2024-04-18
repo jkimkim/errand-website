@@ -107,7 +107,7 @@ function SignUp() {
             <div className="logo-holder">
               <img src={logo} alt="" />
             </div>
-            <div className="text-center mt-4 name">DocsLib</div>
+            <div className="text-center mt-4 name">Errands</div>
             {error && <Alert variant="danger">{error}</Alert>}
             <form className="p-3 mt-3" onSubmit={handleSubmit}>
               <div className="form-field d-flex align-items-center">
