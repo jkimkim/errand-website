@@ -3,6 +3,7 @@ import { Form, Button, Container } from "react-bootstrap";
 import LogedInNav from "../LogedInNav";
 import { db } from "../../firebase"; // Import Firestore from Firebase
 import { submitRequest, getUser } from "../../Context/firebaseMethids";
+import { Modal } from "react-bootstrap";
 
 function RequestForm() {
   const [name, setName] = useState("");
@@ -10,6 +11,7 @@ function RequestForm() {
   const [serviceType, setServiceType] = useState("");
   const [notes, setNotes] = useState("");
   const [activePage, setActivePage] = useState("request");
+  const [showModal, setshowmodal] = useState(false);
 
   useEffect(() => {
     // Fetch user data asynchronously
