@@ -1,0 +1,23 @@
+$color-light-dark: #ecf0f3;
+
+
+.card{
+    border: none;
+}
+
+.color-body{
+    background: $color-light-dark;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, and Opera */
+}
+
+.hide-scroll-bar {
+    overflow-x: auto;
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+}
