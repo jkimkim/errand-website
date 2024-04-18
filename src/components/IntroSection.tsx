@@ -16,16 +16,20 @@ class IntroSection extends Component {
                   <div className="row">
                     <div className="col-md-6">
                       <h1 className="card-title fw-bold">
-                        Welcome to the Documents Library
+                        Welcome to Waterfront Air bnb Errands!
                       </h1>
                       <p className="card-text">
-                        This is a simple document library that allows you to
-                        upload, view and delete documents.
+                        Need help with errands during your stay at Waterfront
+                        Air bnb? You're in the right place! Our platform makes
+                        it easy to request errand services and track your
+                        requests.
                       </p>
                       <p className="card-text">
-                        DocsLib is a free library of documents and resources for
-                        University Students. We have a collection of free
-                        documents and resources for Students from all fields.
+                        Whether you're a host looking to elevate your guest's
+                        stay or a guest seeking personalized assistance during
+                        your trip, we're here to make every moment memorable.
+                        Sit back, relax, and let us take care of the errands, so
+                        you can focus on creating unforgettable memories.
                       </p>
                       <p className="card-text">
                         To get started, click the button below to sign up for
@@ -42,8 +46,8 @@ class IntroSection extends Component {
                     </div>
                     <div className="col-md-6">
                       <img
-                        src="https://jkimtech.web.app/044af99d3d73bd9f8ba8.png"
-                        className="img-fluid"
+                        src="https://americareinfo.com/wp-content/uploads/2022/01/ameriCARE_RunningErrands_Illustration.png"
+                        className="img-fluid items-center"
                         alt="Responsive image"
                       />
                     </div>

@@ -19,7 +19,7 @@ class TopNav extends Component {
             }}
           >
             <img className="logo mx-1 rounded" src={logo} alt="DocsLib" />
-            DocsLib
+            Errands
           </div>
           <nav>
             <ul>
@@ -28,9 +28,6 @@ class TopNav extends Component {
               </li>
               <li>
                 <a href="#categories">Categories</a>
-              </li>
-              <li>
-                <a href="#bootcamp">Bootcamp</a>
               </li>
               <li>
                 <a href="#">Blog</a>

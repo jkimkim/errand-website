@@ -31,35 +31,40 @@ class CategoriesCard extends Component {
         title: "Food Delivery",
         description: "Get your favorite meals delivered to your doorstep",
         icon: faUtensils,
-        image: "https://jkimtech.web.app/044af99d3d73bd9f8ba8.png",
+        image:
+          "https://moolah.co.ke/wp-content/uploads/2020/11/Moolah-1920x900px-errands-guy-1-1-960x540.jpg",
       },
       {
         id: 3,
         title: "Grocery Shopping",
         description: "Have your groceries picked up and delivered to you",
         icon: faShoppingCart,
-        image: "https://jkimtech.web.app/044af99d3d73bd9f8ba8.png",
+        image:
+          "https://moolah.co.ke/wp-content/uploads/2020/11/Moolah-1920x900px-errands-guy-1-1-960x540.jpg",
       },
       {
         id: 4,
         title: "Task Assistance",
         description: "Get help with various tasks and errands",
         icon: faTasks,
-        image: "https://jkimtech.web.app/044af99d3d73bd9f8ba8.png",
+        image:
+          "https://moolah.co.ke/wp-content/uploads/2020/11/Moolah-1920x900px-errands-guy-1-1-960x540.jpg",
       },
       {
         id: 5,
         title: "Moving Assistance",
         description: "Assistance with packing, moving, and unpacking",
         icon: faBoxes,
-        image: "https://jkimtech.web.app/044af99d3d73bd9f8ba8.png",
+        image:
+          "https://moolah.co.ke/wp-content/uploads/2020/11/Moolah-1920x900px-errands-guy-1-1-960x540.jpg",
       },
       {
         id: 6,
         title: "Other Errands",
         description: "Any other errands you need assistance with",
         icon: faHome,
-        image: "https://jkimtech.web.app/044af99d3d73bd9f8ba8.png",
+        image:
+          "https://moolah.co.ke/wp-content/uploads/2020/11/Moolah-1920x900px-errands-guy-1-1-960x540.jpg",
       },
     ],
   };

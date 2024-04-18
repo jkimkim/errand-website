@@ -44,8 +44,17 @@ import { set } from "firebase/database";
 
 // submit request form
 export const submitRequest = async (request) => {
-  const docRef = doc(db, "requests", request.id);
-  await setDoc(docRef, request);
+  try {
+    // Add a new document with a generated id.
+    const id = request.userId + "_" + Date.now();
+
+    const docRef = doc(db, "requests", id);
+    await setDoc(docRef, request);
+    console.log("Request submitted successfully");
+  } catch (error) {
+    console.error("Error submitting request:", error);
+    throw error; // Re-throw the error to handle it elsewhere if needed
+  }
 };
 
 // get all requests

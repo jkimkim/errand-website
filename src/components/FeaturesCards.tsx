@@ -9,21 +9,24 @@ class FeaturesCard extends Component {
     features: [
       {
         id: 1,
-        title: "Upload Documents",
-        description: "Upload documents to the library",
-        image: "https://jkimtech.web.app/044af99d3d73bd9f8ba8.png",
+        title: "Request Errands",
+        description: "Request Errands easily",
+        image:
+          "https://moolah.co.ke/wp-content/uploads/2020/11/Moolah-1920x900px-errands-guy-1-1-960x540.jpg",
       },
       {
         id: 2,
-        title: "View Documents",
-        description: "View documents in the library",
-        image: "https://jkimtech.web.app/044af99d3d73bd9f8ba8.png",
+        title: "Track Errands",
+        description: "Track Errands easily",
+        image:
+          "https://moolah.co.ke/wp-content/uploads/2020/11/Moolah-1920x900px-errands-guy-1-1-960x540.jpg",
       },
       {
         id: 3,
-        title: "Delete Documents",
-        description: "Delete documents from the library",
-        image: "https://jkimtech.web.app/044af99d3d73bd9f8ba8.png",
+        title: "Manage errands",
+        description: "Manage errands at your fingertips",
+        image:
+          "https://moolah.co.ke/wp-content/uploads/2020/11/Moolah-1920x900px-errands-guy-1-1-960x540.jpg",
       },
     ],
   };

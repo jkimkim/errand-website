@@ -27,18 +27,17 @@ function RequestForm() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    // Perform form validation here
-    // Submit request to backend or perform necessary actions
-    // Display confirmation message
     const request = {
       name,
       email,
       serviceType,
       notes,
+      id: Date.now(),
     };
-    await submitRequest(db, request);
+    await submitRequest(request);
     setServiceType("");
     setNotes("");
+    setshowmodal(true);
   };
 
   return (
@@ -100,6 +99,26 @@ function RequestForm() {
           </Form>
         </div>
       </Container>
+      <Modal show={showModal} onHide={() => setshowmodal(false)}>
+        <Modal.Header closeButton>
+          <Modal.Title>Request Submitted</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          Your request has been submitted successfully. We will get back to you
+          shortly.
+        </Modal.Body>
+        <Modal.Footer>
+          <Button
+            variant="secondary"
+            onClick={() => {
+              setshowmodal(false);
+              setActivePage("home");
+            }}
+          >
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }
